@@ -18,3 +18,28 @@
   --mq-mobile: 375px;
   --mq-desktop: 1440px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--fs-root);
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-regular);
+  background-color: var(--color-light-gray);
+  min-height: 100vh;
+}
+
+.attribution {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
